@@ -21,43 +21,43 @@ quanto:DRR000896 a sos:SequenceStatisticsReport;
    dcterms:publisher <http://dbcls.rois.ac.jp/>;
    pav:version "0.2.0";
    sio:SIO_000216 [
-     a sos:totalSequences;
+     a sos:TotalSequences;
      sio:SIO_000221 "obo:UO_0000244";
      sio:SIO_000300 38952180
    ],  [
-     a sos:filteredSequences;
+     a sos:FilteredSequences;
      sio:SIO_000221 "obo:UO_0000244";
      sio:SIO_000300 0
    ],  [
-     a sos:percentGC;
+     a sos:PercentGC;
      sio:SIO_000221 "obo:UO_0000187";
      sio:SIO_000300 "4.5E1"^^xsd:decimal
    ],  [
-     a sos:minimumSequenceLength;
+     a sos:MinimumSequenceLength;
      sio:SIO_000221 "obo:UO_0000244";
      sio:SIO_000300 38
    ],  [
-     a sos:maxSequenceLength;
+     a sos:MaximumSequenceLength;
      sio:SIO_000221 "obo:UO_0000244";
      sio:SIO_000300 38
    ],  [
-     a sos:meanBaseCallQuality;
+     a sos:MeanBaseCallQuality;
      sio:SIO_000221 "obo:UO_0000189";
      sio:SIO_000300 "3.728496870525735E1"^^xsd:decimal
    ],  [
-     a sos:medianBaseCallQuality;
+     a sos:MedianBaseCallQuality;
      sio:SIO_000221 "obo:UO_0000189";
      sio:SIO_000300 "3.9E1"^^xsd:decimal
    ],  [
-     a sos:nContent;
+     a sos:NContent;
      sio:SIO_000221 "obo:UO_0000187";
      sio:SIO_000300 "1.635911204258855E-2"^^xsd:decimal
    ],  [
-     a sos:meanSequenceLength;
+     a sos:MeanSequenceLength;
      sio:SIO_000221 "obo:UO_0000244";
      sio:SIO_000300 "3.8E1"^^xsd:decimal
    ],  [
-     a sos:medianSequenceLength;
+     a sos:MedianSequenceLength;
      sio:SIO_000221 "obo:UO_0000244";
      sio:SIO_000300 "3.8E1"^^xsd:decimal
    ];
