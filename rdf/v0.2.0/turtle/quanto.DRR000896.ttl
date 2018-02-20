@@ -63,3 +63,4 @@ quanto:DRR000896 a sos:SequenceStatisticsReport;
    ];
    rdfs:seeAlso <http://identifiers.org/insdc.sra/DRR000896>;
    foaf:page <http://quanto.dbcls.jp> .
+
