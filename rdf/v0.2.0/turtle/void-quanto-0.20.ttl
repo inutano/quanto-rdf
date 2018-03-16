@@ -1,0 +1,52 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.jp/bio/10/quanto/> a dctypes:Dataset ;
+  dcterms:title "Quanto RDF" ;
+  pav:hasCurrentVersion <http://purl.jp/bio/10/quanto/0.2.0> ;
+  dcterms:publisher <http://dbcls.rois.ac.jp/> ;
+  dcterms:creator "Tazro Ohta" ;
+  dcterms:contributor "Shuichi Kawashima" ;
+  dcterms:description "Quanto is a dataset of sequencing quality of public high-throughput sequencing data based on FastQC."
+
+<http://purl.jp/bio/10/quanto/0.2.0> a dctypes:Dataset, dcat:Dataset ;
+  dcterms:isVersionOf <http://purl.jp/bio/10/quanto/0.2.0> ;
+  dcterms:description "Quanto RDF version 0.2.0" ;
+  dcterms:title "Quanto RDF" ;
+  dcterms:publisher <http://dbcls.rois.ac.jp/> ;
+  pav:version "0.2.0" ;
+  dcterms:creator "Tazro Ohta" ;
+  dcat:disribution <https://integbio.jp/rdf/download/quanto/0.2.0/all/quanto.tar.gz> .
+  dcterms:hasDistribution <https://integbio.jp/rdf/download/quanto/0.2.0/all/quanto.tar.gz> .
+
+<http://purl.jp/bio/10/quanto/0.2.0/all/void.ttl#> a void:DatasetDescription ;
+  dcterms:title "The Quanto RDF" ;
+  dcterms:description "The VoID description for a Quanto-RDF dataset" ;
+  dcterms:issued "2018-03-12"^^xsd:date ;
+  dcterms:creator "Tazro Ohta" ;
+  pav:createdBy <https://orcid.org/0000-0003-3777-5945> ;
+  pav:lastUpdateOn "2018-03-12"^^xsd:date .
+
+<https://integbio.jp/rdf/download/quanto/0.2.0/all/quanto.tar.gz> a void:Dataset , dcat:Distribution ;
+  dcterms:title "The Quanto RDF" ;
+  dcterms:description "Quanto is a dataset of sequencing quality of public high-throughput sequencing data based on FastQC."
+  dcterms:creator "Tazro Ohta" ;
+  pav:createdBy <https://orcid.org/0000-0003-3777-5945> ;
+  pav:createdOn "2016-06-12"^^xsd:date ;
+  pav:lastUpdateOn "2018-03-12"^^xsd:dateTime ;
+  dcterms:format "text/turtle" .
+  foaf:page <https://integbio.jp/rdf/?view=detail&id=quanto> ;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+  pav:version "0.2.0" ;
+  dcterms:publisher <http://dbcls.rois.ac.jp/> ;
+  dcterms:created "2016-07-12"^^xsd:date ;
+  dcterms:modified "2018-03-12"^^xsd:dateTime ;
+  void:sparqlEndpoint <https://integbio.jp/rdf/sparql> .
